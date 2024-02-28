@@ -1,0 +1,24 @@
+:root{
+  --background: white;
+  --text-primary:black;
+  --button-text: #ffffff;
+  --button-bg:#000;
+}
+
+[data-theme="dark"]{
+  --background:black;
+  --text-promary:white;
+  --button-text:#000;
+  --button-bg:#ffffff;
+}
+
+.light-dark-theme{
+  background-color: lightcyan;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+  transition: all 0.5s;
+  align-items: center;
+}

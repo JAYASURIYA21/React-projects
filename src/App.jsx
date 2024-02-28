@@ -4,6 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Accordian from './components/accordian'
 import RandomColor from './components/random-color/index.jsx'
+import StarRating from './components/star-rating/index.jsx'
+import ImageSlider from './components/image-slider/index.jsx'
+import LoadMoreItem from './components/load-more-button/index.jsx'
+import TreeView from './components/tree-view/index.jsx'
+import menus from './components/tree-view/data.js'
+import QrGenerator from './components/qr-code-generator/index.jsx'
+import ThemeSwitch from './components/switch-theme/index.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +18,13 @@ function App() {
   return (
     <>
       {/* <Accordian/> */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
+      {/* <StarRating/> */}
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} limit={10} page={Math.floor(Math.random()*100)}/> */}
+      {/* <LoadMoreItem/> */}
+      {/* <TreeView list={menus} /> */}
+      {/* <QrGenerator/> */}
+      <ThemeSwitch/>
     </>
   )
 }
