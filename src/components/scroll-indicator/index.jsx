@@ -14,7 +14,7 @@ export default function ScrollIndicator({ url }) {
       }
     } catch (e) {
       console.error();
-      console.log("url not found");
+      console.log("url not found oops!");
     }
   }
   function handelScrollPercentage() {
