@@ -11,6 +11,7 @@ import TreeView from './components/tree-view/index.jsx'
 import menus from './components/tree-view/data.js'
 import QrGenerator from './components/qr-code-generator/index.jsx'
 import ThemeSwitch from './components/switch-theme/index.jsx'
+import ScrollIndicator from './components/scroll-indicator/index.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,8 @@ function App() {
       {/* <LoadMoreItem/> */}
       {/* <TreeView list={menus} /> */}
       {/* <QrGenerator/> */}
-      <ThemeSwitch/>
+      {/* <ThemeSwitch/> */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
     </>
   )
 }
